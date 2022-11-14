@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +8,11 @@
   button {
     @apply border border-black rounded-xl px-5 py-1
   }
+
+}
+
+
+@font-face {
+  font-family: "xono";
+  src: url('./assets/cringes.ttf');
 }

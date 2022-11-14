@@ -1,0 +1,47 @@
+.wrapper {
+    @apply  bg-black shadow-xl hover:shadow-none cursor-pointer w-[400px] rounded-3xl flex-auto items-center justify-center;
+  }
+  
+  .wrapperAnime {
+    @apply transition-all duration-500 ease-in-out;
+  }
+ 
+  .header {
+    @apply  mt-auto mx-auto w-[260px]  bg-black      rounded-xl                 relative                                                                                                           ;
+  }
+  
+  .imageWrapper {
+    @apply  rounded-2xl overflow-hidden transition-all duration-500 ease-in-out  w-[100px] h-[100px];
+  }
+  
+  .image {
+    @apply  w-[260px] h-[200px] object-center rounded-xl  ml-10 ;
+  }
+  
+  .textWrapper {
+    @apply flex  ;
+  }
+  
+  .text {
+    @apply font-medium   tracking-wider text-white pb-10 pt-2 px-5 text-2xl;
+  }
+  
+  .badgeWrapper {
+    @apply  bottom-0 left-0 mb-4 ml-3 ;
+  }
+  
+  .dangerBadge {
+    @apply h-10 w-10 flex items-center justify-center text-xl bg-white hover:bg-red-500 text-red-500 hover:text-white rounded-2xl shadow-xl;
+  }
+  
+  .primaryBadge {
+    @apply h-10 w-16 ml-2 bg-white hover:bg-blue-600 flex items-center justify-center font-medium text-blue-600 hover:text-white rounded-2xl shadow-xl;
+  }
+  
+  .counter {
+    @apply text-gray-800 ml-2;
+  }
+  
+  .badgeAnime {
+    @apply transform-gpu translate-y-0 hover:-translate-y-1 transition-all duration-300 ease-in-out;
+  }
